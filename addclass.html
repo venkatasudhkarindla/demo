@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>
+			add multiple classes
+		</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+		</script>
+		<script>
+			$(document).ready(function(){
+				$('button').click(function(){
+				$('div').addClass('info blue');
+				$('.demo').addClass('blue');
+				});
+			});
+		</script>
+<style>
+	.info{background-color:black;
+		color:white}
+	.blue{font-weight:bold;
+		font-size=30px}
+</style>
+	</head>
+	<body>
+		<div class='container'>
+			<h1> these is applying muliple classes</h1>
+			<p> my name is sudhakar</p>
+		</div>
+		<p class='demo'>my brother name is sudhskar</p>
+		<div class='demo'>my father name is sudhakar</p>
+		</div>
+			<button>click me </button>
+	</body>
+</html>
+
